@@ -1,0 +1,12 @@
+{
+  "id": "hell",
+  "name": "Hellschreiber (Feld Hell)",
+  "description": "Hellschreiber inside Kainos: Feld Hell, Slow Hell, Hell x5, Hell x9, FSK-Hell 245, FSK-Hell 105 and Hell 80, compatible with fldigi. Click a signal on the waterfall and its text is drawn as it arrives (twice, so one copy is always whole); type to send, with F1 - F8 messages, and log the QSO.",
+  "version": "0.1.0",
+  "api": 1,
+  "minKainos": "1.0.12",
+  "entry": "Kainos.Hell.dll",
+  "author": "Justin Cron K7JUS",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/PNWHam-K7JUS/kainos-module-hell"
+}
