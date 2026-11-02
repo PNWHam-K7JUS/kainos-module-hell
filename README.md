@@ -3,7 +3,7 @@
 A Kainos module for Hellschreiber: **Feld Hell**, **Slow Hell**, **Hell x5**, **Hell x9**, **FSK-Hell 245**,
 **FSK-Hell 105** and **Hell 80**, timed as fldigi does so it works with fldigi.
 
-Install it in Kainos from **Setup > Modules**, then open it from the **Modes** menu (**Hell**).
+Install it in Kainos from **Setup > Modules**, then open it from the **Digi Modes** menu (**Hell**).
 
 ## Receiving
 
