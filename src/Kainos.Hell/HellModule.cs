@@ -1,4 +1,4 @@
-/*  HellModule.cs
+﻿/*  HellModule.cs
 
 Kainos Hell: Feld Hell and the other Hellschreiber modes inside Kainos, as a downloadable module (Setup > Modules).
 Draws the signal clicked on the waterfall as it arrives, and sends what's typed and the F1 - F8 messages. Works with
@@ -45,7 +45,7 @@ namespace Kainos.Hell
                 host.Log("another digital mode took the receiver's audio: closing");
                 close();
             });
-            _menu = host.AddMenuItem("Hell", "Feld Hell and the other Hellschreiber modes (the Hell module): open / close.", () => { if (_pane.IsOpen) close(); else open(); });
+            _menu = host.AddMenuItem("Hell (experimental)", "Feld Hell and the other Hellschreiber modes (the Hell module): open / close. Experimental: not yet tested on the air.", () => { if (_pane.IsOpen) close(); else open(); });
             host.Log("Hell " + ModuleVersion + " started");
             if (host.GetSetting("open", "0") == "1") open();
         }

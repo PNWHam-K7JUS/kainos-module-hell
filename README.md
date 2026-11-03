@@ -1,4 +1,6 @@
-# Kainos Hell
+﻿# Kainos Hell
+
+> **Experimental.** It passes its own self-test (sending to itself through noise), but it hasn't been tested on the air against fldigi yet. Reports are welcome on the Kainos GitHub.
 
 A Kainos module for Hellschreiber: **Feld Hell**, **Slow Hell**, **Hell x5**, **Hell x9**, **FSK-Hell 245**,
 **FSK-Hell 105** and **Hell 80**, timed as fldigi does so it works with fldigi.
