@@ -290,8 +290,13 @@ namespace Kainos.Hell.UI
 
         // ---- the timer ----
 
+        // false while the pane is closed: its timer keeps running, and without this it put the mode's marker back on
+        // the panadapter after closing had cleared it, so the marker stayed in every mode (GitHub #86)
+        public bool Showing;
+
         private void tick()
         {
+            if (!Showing) return;
             foreach (float[] line in _e.TakeLines()) _wf.AddLine(line, HellEngine.BinHz);
             _wf.RxHz = _e.RxFreq;
             _wf.TxHz = _e.TxFreq;
